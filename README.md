@@ -24,8 +24,8 @@ These design choices ensure the project is flexible and maintainable.
 ## <h>Project structure🧠</h>
 * <em><b>src/main/java</b></em> - Contains the Java source code for the project,
   organized according to a layered architecture.
-  <br><em><b>&nbsp;&nbsp;&nbsp;&nbsp;controller</em></b>- Contains the controllers that handle incoming HTTP requests
-  and &nbsp;&nbsp;&nbsp;&nbsp;delegate to the appropriate service layer.
+  <br><em><b>&nbsp;&nbsp;&nbsp;&nbsp;controller</em></b> - Contains the controllers that handle incoming HTTP requests
+  and delegate to the appropriate service layer.
   <br><em><b>&nbsp;&nbsp;&nbsp;&nbsp;dao</em></b> - Contains the data access objects that handle interactions with the database.
   <br><em><b>&nbsp;&nbsp;&nbsp;&nbsp;model</em></b> - Contains the domain model objects representing the entities in the system.
   <br><em><b>&nbsp;&nbsp;&nbsp;&nbsp;service</em></b> - Contains the business logic and serves as an intermediary between the controller and dao layers.
@@ -40,8 +40,8 @@ These design choices ensure the project is flexible and maintainable.
   <li><a href="https://tomcat.apache.org/download-90.cgi" target="_blank">TomCat 9.0.50</a></li>
   <li>Spring security 5.6.10</li>
   <li>Spring Web 5.6.10</li>
-  <li>Hibernate 5.6.14.Final</li>
   <li><a href="https://spring.io/" target="_blank">Spring 5.3.20</a></li>
+  <li>Hibernate 5.6.14.Final</li>
 </ul>
 
 ## <h>How to start the program👌</h>
